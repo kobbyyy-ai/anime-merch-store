@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Anime Merch Store</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'Poppins', sans-serif; background: #f9f9f9; color: #333; }
+    header {
+      background: #fff;
+      padding: 1rem 2rem;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    nav a {
+      margin-left: 1.5rem;
+      text-decoration: none;
+      color: #333;
+      font-weight: 600;
+    }
+    .hero {
+      text-align: center;
+      padding: 4rem 2rem;
+      background: url('https://i.imgur.com/RbJXT1T.png') center/cover no-repeat;
+      color: white;
+    }
+    .hero h1 { font-size: 3rem; margin-bottom: 1rem; }
+    .gallery {
+      padding: 2rem;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    .contact {
+      background: #fff;
+      padding: 2rem;
+      text-align: center;
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 0.75rem;
+      margin: 0.5rem 0;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+    }
+    form button {
+      background: #111;
+      color: #fff;
+      padding: 0.75rem 2rem;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #111;
+      color: white;
+    }
+    .social {
+      margin-top: 1rem;
+    }
+    .social a {
+      margin: 0 1rem;
+      color: white;
+      text-decoration: none;
+    }
+    .whatsapp-button {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #25D366;
+      color: white;
+      padding: 10px 15px;
+      border-radius: 50%;
+      font-size: 20px;
+      text-align: center;
+      text-decoration: none;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h2>AnimeTees</h2>
+    <nav>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact">Contact</a>
+      <a href="https://instagram.com" target="_blank">IG</a>
+      <a href="https://tiktok.com" target="_blank">TikTok</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Shop Your Favorite Anime Merch</h1>
+    <p>Clean. Modern. Inspired by your favorite shows.</p>
+  </section>
+
+  <section class="gallery" id="gallery">
+    <img src="https://i.imgur.com/NIo4mBQ.png" alt="Tee 1">
+    <img src="https://i.imgur.com/VXK6Od1.png" alt="Tee 2">
+    <img src="https://i.imgur.com/Wu6LMhn.png" alt="Tee 3">
+  </section>
+
+  <section class="contact" id="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea rows="5" placeholder="Your Message"></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 AnimeTees. All rights reserved.</p>
+    <div class="social">
+      <a href="https://instagram.com" target="_blank">Instagram</a>
+      <a href="https://tiktok.com" target="_blank">TikTok</a>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/1234567890" class="whatsapp-button" target="_blank">💬</a>
+</body>
+</html>
+added main site file
